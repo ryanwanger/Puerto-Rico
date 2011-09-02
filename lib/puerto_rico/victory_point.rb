@@ -1,0 +1,3 @@
+class PuertoRico::VictoryPoint
+  
+end

@@ -10,13 +10,13 @@ I have only implemented one or two buildings at this point. More to come.
 
 It's very basic, and annoying to play in the command line right now (there is no way to check up on the state of the game). If you want to run it...
 
-  require './puerto_rico'
+>  require './puerto_rico'
   
-  game = PuertoRico::Game.new 3
+>  game = PuertoRico::Game.new 3
   
 3 is the number of players. 4 or 5 should work also, but I haven't tested that.
 
-  game.play_round
+>  game.play_round
   
 Then just make choices about what each player should do as it approaches. After each player has chosen an role and everything is played out, you'll be returned back to the prompt. Just call game.play_round again.
 
